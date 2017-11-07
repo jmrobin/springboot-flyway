@@ -1,0 +1,2 @@
+-- src/main/resourses/db/migration/V001__create_database.sql
+-- create database
