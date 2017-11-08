@@ -16,10 +16,10 @@ public class Review
 	@Column(name="id")
 	private Long id;
 	
-	@Column(name="manuscript")
+	@Column(name="manuscript", nullable=false)
 	private String manuscript;
 	
-	@Column(name="publishable")
+	@Column(name="publishable", nullable=false)
 	private boolean publishable;
 	
 	public Review()
